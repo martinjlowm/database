@@ -1181,7 +1181,6 @@ UPDATE `item_template` SET `patch`= 5 WHERE `entry`= 19805; -- Keefer's Angelfis
 UPDATE `item_template` SET `patch`= 5 WHERE `entry`= 19806; -- Dezian Queenfish
 UPDATE `item_template` SET `patch`= 5 WHERE `entry`= 19807; -- Speckled Tastyfish
 UPDATE `item_template` SET `patch`= 5 WHERE `entry`= 19808; -- Rockhide Strongfish | NOTE: Fishing contest event
-UPDATE `item_template` SET `patch`= 5 WHERE `entry`= 19812; -- Rune of the Dawn | NOTE: New AD trinket reward, 1.7 retail patch notes
 UPDATE `item_template` SET `patch`= 5 WHERE `entry`= 19813; -- Punctured Voodoo Doll | ZG dolls
 UPDATE `item_template` SET `patch`= 5 WHERE `entry`= 19814; -- Punctured Voodoo Doll
 UPDATE `item_template` SET `patch`= 5 WHERE `entry`= 19815; -- Punctured Voodoo Doll

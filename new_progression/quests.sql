@@ -4,7 +4,11 @@ UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 558; -- Jaina's Autograph 
 UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 910; -- Gateway to the Frontier | NOTE: Childrens Week added (1.4 patch notes)
 UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 911; -- Down at the Docks | NOTE: Childrens Week added (1.4 patch notes)
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 1318; -- Unfinished Gordok Business | NOTE: Dire Maul quest
+UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 1479; -- The Bough of the Eternals | NOTE: Childrens Week added (1.4 patch notes)
+UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 1558; -- The Stonewrought Dam | NOTE: Childrens Week added (1.4 patch notes)
+UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 1687; -- Spooky Lighthouse | NOTE: Childrens Week added (1.4 patch notes)
 UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 1800; -- Lordaeron Throne Room | NOTE: Childrens Week added (1.4 patch notes)
+UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 4822; -- You Scream, I Scream... | NOTE: Childrens Week added (1.4 patch notes)
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 5504; -- Mantles of the Dawn | NOTE: New AD rewards added (1.3 patch notes)
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 5507; -- Mantles of the Dawn | NOTE: New AD rewards added (1.3 patch notes)
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 5513; -- Mantles of the Dawn | NOTE: New AD rewards added (1.3 patch notes)
@@ -114,11 +118,12 @@ UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7482; -- Elven Legends | N
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7483; -- Libram of Rapidity | NOTE: Dire Maul quest
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7484; -- Libram of Focus | NOTE: Dire Maul quest
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7485; -- Libram of Protection | NOTE: Dire Maul quest
-UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 7487; -- Attunement to the Core | NOTE: Molten core discovery quest changed to attunement (1.4 patch notes)
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7488; -- Lethtendris's Web | NOTE: Dire Maul quest
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7489; -- Lethtendris's Web | NOTE: Dire Maul quest
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7490; -- Head of Onyxia, added in 1.3.
+UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7491; -- For All To See, added in 1.3.
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7495; -- Head of Onyxia, added in 1.3.
+UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7496; -- Celebrating Good Times, added in 1.3.
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7492; -- Camp Mojache | NOTE: Dire Maul quest
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7494; -- Feathermoon Stronghold | NOTE: Dire Maul quest
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7498; -- Garona: A Study on Stealth and Treachery | NOTE: Dire Maul quest
@@ -226,7 +231,6 @@ UPDATE `quest_template` SET `patch`= 4 WHERE `entry`= 7782; -- The Lord of Black
 UPDATE `quest_template` SET `patch`= 4 WHERE `entry`= 7783; -- The Lord of Blackrock | NOTE: BWL Quest
 UPDATE `quest_template` SET `patch`= 4 WHERE `entry`= 7784; -- The Lord of Blackrock | NOTE: BWL Quest
 UPDATE `quest_template` SET `patch`= 4 WHERE `entry`= 7785; -- Examine the Vessel | NOTE: Quest not completable before 1.6
-UPDATE `quest_template` SET `patch`= 4 WHERE `entry`= 7786; -- Thunderaan the Windseeker | NOTE: Quest not completable before 1.6
 UPDATE `quest_template` SET `patch`= 4 WHERE `entry`= 7787; -- Rise, Thunderfury! | NOTE: Quest not completable before 1.6
 UPDATE `quest_template` SET `patch`= 3 WHERE `entry`= 7788; -- Vanquish the Invaders! | NOTE: Deprecated WSG quest for Silverwing/Warsong talismans
 UPDATE `quest_template` SET `patch`= 3 WHERE `entry`= 7789; -- Quell the Silverwing Usurpers | NOTE: Deprecated WSG quest for Silverwing/Warsong talismans
@@ -768,7 +772,6 @@ UPDATE `quest_template` SET `patch`= 7 WHERE `entry`= 8614; -- The Horde Needs M
 UPDATE `quest_template` SET `patch`= 7 WHERE `entry`= 8615; -- The Horde Needs Baked Salmon! | NOTE: AQ40 war effort quest
 UPDATE `quest_template` SET `patch`= 7 WHERE `entry`= 8616; -- The Horde Needs More Baked Salmon! | NOTE: AQ40 war effort quest
 UPDATE `quest_template` SET `patch`= 7 WHERE `entry`= 8619; -- Morndeep the Elder | NOTE: Allakhazam dates for Festival of Elune
-UPDATE `quest_template` SET `patch`= 7 WHERE `entry`= 8620; -- The Only Prescription | NOTE: AQ40 gate quest
 UPDATE `quest_template` SET `patch`= 7 WHERE `entry`= 8621; -- Stormcaller's Footguards | NOTE: AQ40 Loot
 UPDATE `quest_template` SET `patch`= 7 WHERE `entry`= 8622; -- Stormcaller's Hauberk | NOTE: AQ40 Loot
 UPDATE `quest_template` SET `patch`= 7 WHERE `entry`= 8623; -- Stormcaller's Diadem | NOTE: AQ40 Loot
