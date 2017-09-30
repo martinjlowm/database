@@ -383,8 +383,8 @@ UPDATE `item_template` SET `patch`= 1 WHERE `entry`= 18417; -- Pattern: Moonclot
 UPDATE `item_template` SET `patch`= 1 WHERE `entry`= 18418; -- Pattern: Cloak of Warding | DM Loot
 UPDATE `item_template` SET `patch`= 1 WHERE `entry`= 18420; -- Bonecrusher | NOTE: Dire Maul Loot
 UPDATE `item_template` SET `patch`= 1 WHERE `entry`= 18421; -- Backwood Helm | NOTE: Dire Maul Loot
-UPDATE `item_template` SET `patch`= 2 WHERE `entry`= 18422; -- Head of Onyxia | 1.4 MC
-UPDATE `item_template` SET `patch`= 2 WHERE `entry`= 18423; -- Head of Onyxia | 1.4 MC
+UPDATE `item_template` SET `patch`= 1 WHERE `entry`= 18422; -- Head of Onyxia | Added in 1.3 according to Allakhazam.
+UPDATE `item_template` SET `patch`= 1 WHERE `entry`= 18423; -- Head of Onyxia | Added in 1.3 according to Allakhazam.
 UPDATE `item_template` SET `patch`= 1 WHERE `entry`= 18424; -- Sedge Boots | DM Loot
 UPDATE `item_template` SET `patch`= 1 WHERE `entry`= 18425; -- Kreeg's Mug | NOTE: Dire Maul Loot
 UPDATE `item_template` SET `patch`= 1 WHERE `entry`= 18426; -- Lethtendris's Web

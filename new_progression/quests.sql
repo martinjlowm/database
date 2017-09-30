@@ -1,6 +1,10 @@
 UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 171; -- A Warden of the Alliance | NOTE: Childrens Week added (1.4 patch notes)
 UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 172; -- Children's Week | NOTE: Childrens Week added (1.4 patch notes)
+UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 558; -- Jaina's Autograph | NOTE: Childrens Week added (1.4 patch notes)
+UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 910; -- Gateway to the Frontier | NOTE: Childrens Week added (1.4 patch notes)
+UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 911; -- Down at the Docks | NOTE: Childrens Week added (1.4 patch notes)
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 1318; -- Unfinished Gordok Business | NOTE: Dire Maul quest
+UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 1800; -- Lordaeron Throne Room | NOTE: Childrens Week added (1.4 patch notes)
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 5504; -- Mantles of the Dawn | NOTE: New AD rewards added (1.3 patch notes)
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 5507; -- Mantles of the Dawn | NOTE: New AD rewards added (1.3 patch notes)
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 5513; -- Mantles of the Dawn | NOTE: New AD rewards added (1.3 patch notes)
@@ -113,6 +117,8 @@ UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7485; -- Libram of Protect
 UPDATE `quest_template` SET `patch`= 2 WHERE `entry`= 7487; -- Attunement to the Core | NOTE: Molten core discovery quest changed to attunement (1.4 patch notes)
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7488; -- Lethtendris's Web | NOTE: Dire Maul quest
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7489; -- Lethtendris's Web | NOTE: Dire Maul quest
+UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7490; -- Head of Onyxia, added in 1.3.
+UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7495; -- Head of Onyxia, added in 1.3.
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7492; -- Camp Mojache | NOTE: Dire Maul quest
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7494; -- Feathermoon Stronghold | NOTE: Dire Maul quest
 UPDATE `quest_template` SET `patch`= 1 WHERE `entry`= 7498; -- Garona: A Study on Stealth and Treachery | NOTE: Dire Maul quest
