@@ -9,4 +9,11 @@ INSERT INTO `creature_loot_template` (`entry`, `item`, `ChanceOrQuestChance`, `g
 INSERT INTO `creature_loot_template` (`entry`, `item`, `ChanceOrQuestChance`, `groupid`, `mincountOrRef`, `maxcount`, `condition_id`) VALUES (10819, 4608, 50, 0, 1, 1, 0);
 INSERT INTO `creature_loot_template` (`entry`, `item`, `ChanceOrQuestChance`, `groupid`, `mincountOrRef`, `maxcount`, `condition_id`) VALUES (10819, 2043, 20, 1, -2043, 1, 0);
 INSERT INTO `creature_loot_template` (`entry`, `item`, `ChanceOrQuestChance`, `groupid`, `mincountOrRef`, `maxcount`, `condition_id`) VALUES (10819, 16999, 60, 0, 1, 1, 4000);
-INSERT INTO `creature` (`guid`, `id`, `map`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`, `spawnFlags`, `patch_min`, `patch_max`) VALUES (2530187, 10819, 0, 0, 10819, 3104.2, -3711.8, 132.547, 2.32201, 19800, 0, 0, 3998, 0, 0, 0, 0, 0, 0);
+INSERT INTO `creature` (`guid`, `id`, `map`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`, `spawnFlags`, `patch_min`, `patch_max`) VALUES (66900, 10819, 0, 0, 10819, 3104.2, -3711.8, 132.547, 2.32201, 19800, 0, 0, 3998, 0, 0, 0, 0, 0, 0);
+
+-- Add patch condition to Andorgos' gossip options.
+INSERT INTO `conditions` (`condition_entry`, `type`, `value1`, `value2`) VALUES (4019, 37, 9, 1);
+INSERT INTO `conditions` (`condition_entry`, `type`, `value1`, `value2`) VALUES (719, -1, 717, 4019);
+INSERT INTO `conditions` (`condition_entry`, `type`, `value1`, `value2`) VALUES (720, -1, 718, 4019);
+UPDATE `gossip_menu_option` SET `condition_id`=719 WHERE `menu_id`=6644 && `id`=0;
+UPDATE `gossip_menu_option` SET `condition_id`=720 WHERE `menu_id`=6644 && `id`=1;
