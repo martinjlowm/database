@@ -199,3 +199,39 @@ INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (17613,
 INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (17616, 9, 0);
 INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (17617, 9, 0);
 
+-- Add old mounts.
+INSERT INTO `npc_vendor` VALUES (3685,15293,0,0);
+INSERT INTO `npc_vendor` VALUES (3685,15292,0,0);
+INSERT INTO `npc_vendor` VALUES (3362,12330,0,0);
+INSERT INTO `npc_vendor` VALUES (3362,12351,0,0);
+INSERT INTO `npc_vendor` VALUES (7952,8586,0,0);
+INSERT INTO `npc_vendor` VALUES (7952,13317,0,0);
+INSERT INTO `npc_vendor` VALUES (384,12353,0,0);
+INSERT INTO `npc_vendor` VALUES (4885,12353,0,0);
+INSERT INTO `npc_vendor` VALUES (2357,12353,0,0);
+INSERT INTO `npc_vendor` VALUES (1460,12353,0,0);
+INSERT INTO `npc_vendor` VALUES (384,12354,0,0);
+INSERT INTO `npc_vendor` VALUES (4885,12354,0,0);
+INSERT INTO `npc_vendor` VALUES (2357,12354,0,0);
+INSERT INTO `npc_vendor` VALUES (1460,12354,0,0);
+INSERT INTO `npc_vendor` VALUES (1261,13328,0,0);
+INSERT INTO `npc_vendor` VALUES (1261,13329,0,0);
+INSERT INTO `npc_vendor` VALUES (4730,12302,0,0);
+INSERT INTO `npc_vendor` VALUES (4730,12303,0,0);
+INSERT INTO `npc_vendor` VALUES (7955,13326,0,0);
+INSERT INTO `npc_vendor` VALUES (7955,13327,0,0);
+-- Old mounts are forbidden after 1.4.
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (15293, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (15292, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (12330, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (12351, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (8586, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (13317, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (12353, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (12354, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (13328, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (13329, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (12302, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (12303, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (13326, 2, 0);
+INSERT INTO `forbidden_items` (`entry`, `patch`, `AfterOrBefore`) VALUES (13327, 2, 0);
